@@ -1,0 +1,111 @@
+body{
+    background-image: linear-gradient(to top left, #753682 0%, #bf2e34 100%);
+}
+
+
+.btn{
+    text-align: center;
+    margin: 9% 37%;
+    padding: 1% 4%;
+    border-radius: 24px;
+color: cornsilk;
+}
+.btn:hover{
+    background-color: white;
+    color: black;
+}
+.cont-part{
+    margin: 0% 12%;
+    padding: 1% 3%;
+
+}
+.player--0{
+    text-align: center;
+    color: cornsilk;
+}
+.player--1{
+    text-align: center;
+    color: cornsilk;
+}
+
+.dice{
+    width: 30%;
+    width: 26%;
+    margin: 1% 29%;
+  
+}
+.player--0 p{
+    font-size: 45px;
+    color: cornsilk;
+}
+.player--1 p{
+    font-size: 45px;
+    color: cornsilk;
+}
+.game{
+    text-align: center;
+    margin: 9% 17%;
+    padding: 1% 4%;
+    border-radius: 24px;   
+}
+
+.current-one{
+    text-align: center;
+    color: cornsilk; 
+    background-color: brown;  
+   border-radius: 18px;
+    padding: 4% 2%;
+
+}
+
+.current-two{
+    text-align: center;
+    color: cornsilk;
+    background-color: brown;
+    padding: 4% 2%;
+    border-radius: 18px;
+
+}
+
+.last-cont{
+    margin: 8% 0%;
+}
+
+
+.current-one{
+    text-align: center;   
+}
+
+.current-one p{
+    font-size: 45px;
+}
+
+.current-two p{
+    font-size: 45px;
+}
+
+.btn--hold{
+    padding: 1% 8%;   
+}
+
+.btn--roll{
+    padding: 1% 4%;   
+}
+
+.hidden{
+    display: none;
+}
+.player--active{
+    background-color:cadetblue;
+    padding: 4% 0%;
+}
+
+.player--winner {
+    background-color: #2f2f2f;
+  }
+  
+  .player--winner .name {
+    font-weight: 700;
+    color: #c7365f;
+  }
+  

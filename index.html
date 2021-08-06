@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>pig game</title>
+</head>
+
+<body>
+
+    <section class="main">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="btn btn-lg btn-outline-dark btn--new"> 🔄 NEW GAME</div>
+                </div>
+            </div>
+        </div>
+        <div class="container cont-part">
+            <div class="row">
+                <div class="col-lg-4 player--0 player--active">
+                    <h2 class="name" id="name--0">Player 1</h2>
+                    <p class="score" id="score--0">0</p>
+                </div>
+                <div class="col-lg-4 ">
+
+                    <img src=".//dice-3.png" alt=" " class="dice" id="hidden">
+                </div>
+                <div class=" col-lg-4 player--1">
+                    <h2 class="name" id="name--1">Player 2</h2>
+                    <p class="score" id="score--1">0</p>
+                </div>
+            </div>
+
+            <div class="container last-cont">
+                <div class="row">
+                    <div class="col-md-4 current-one">
+                        <h2 class="current-label">CURRENT</h2>
+                        <p class="current-score" id="current--0">0</p>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="btn btn-lg btn-outline-dark game btn--roll"> 🎲 roll dice</div>
+                        <div class="btn btn-lg btn-outline-dark game btn--hold"> 📥 hold</div>
+
+                    </div>
+                    <div class="col-md-4 current-two">
+                        <h2 class="current-label">CURRENT</h2>
+                        <p class="current-score" id="current--1">0</p>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
